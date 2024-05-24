@@ -1,0 +1,11 @@
+.wy-nav-content {
+    max-width: 95% !important;
+}
+
+.wy-side-nav-search, .wy-nav-top {
+    background: #105BA4;
+}
+
+html {
+    scroll-behavior: smooth;
+  }

@@ -46,32 +46,6 @@ OS별로 제공되는 유틸리티를 사용해서 시스템 커널 파라미터
 
 ##### 권장 값
 
-|분류|커널 항목|권장 값(bytes)|
-|----|--------|-------------|
-|공유 메모리|shmmax|2G+1|
-||shmmin|500|
-||shmseg|200|
-|세마포어|semmns|8192|
-||semmns|8192|
-||semmni|5029|
-||semmsl|2000|
-||semmap|5024|
-||semmnu|1024|
-||semopm|512|
-||semume|512|
-||semvmx|32767|
-|파일 캐쉬(HP의 권고안은 8G이하에서 20%, 8G이상에서 10%이다)|dbc_min_pct|5%|
-||dbc_max_pct|5~20%|
-|그 외|maxdsiz|2GB|
-||maxdsiz_64bit|Altibase가 사용할 것으로 예측하는 메모리 용량|
-||max_thread_proc|600 이상|
-||maxfiles|2048 이상|
-||nproc|6142|
-||maxusers|124|
-
-
-
-
 <table>
 	<tbody>
 		<tr>
@@ -271,11 +245,9 @@ Altibase의 운영을 위해서 THP 옵션을 never로 설정할 것을 권고�
 
 1. root 계정으로 /etc/grub.conf의 kernel boot 라인 끝에 transparent_hugepage=never를 아래처럼 추가한다.
    
-   ```
-   .....
-   kernel /vmlinuz-2.6.32-220.el6.x86_64 ro root=UUID=067b9803-90ca-4875-a018-ff043adde1ed rd_NO_LUKS LANG=ko_KR.UTF-8 rd_NO_MD quiet rhgb crashkernel=128M  KEYBOARDTYPE=pc KEYTABLE=us rd_NO_LVM rd_NO_DM transparent_hugepage=never
-   ......
-   ```
+	```
+	kernel /vmlinuz-2.6.32-220.el6.x86_64 ro root=UUID=067b9803-90ca-4875-a018-ff043adde1ed rd_NO_LUKS LANG=ko_KR.UTF-8 rd_NO_MD quiet rhgb crashkernel=128M  KEYBOARDTYPE=pc KEYTABLE=us rd_NO_LVM rd_NO_DM transparent_hugepage=never
+	```
    
 2. 시스템을 재시작한다.
 
