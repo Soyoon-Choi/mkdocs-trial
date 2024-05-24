@@ -10,7 +10,7 @@ theme:
 #        python:
 #          options:
 #            docstring_style: sphinx
-# markdown_extensions:
-#  - markdown_include.include:
-#      base_path: .
-#  - admonition
+markdown_extensions:
+  - markdown.extensions.toc:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+      permalink: "\ue157"
