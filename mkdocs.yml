@@ -17,12 +17,29 @@ plugins:
 #          options:
 #            docstring_style: sphinx
 markdown_extensions:
-  - footnotes
+  # - toc:
+  #- footnotes
   - markdown.extensions.toc:
       slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
-      permalink: "\ue157"
+      permalink: "#"
   - pymdownx.blocks.html:
   - pymdownx.blocks.admonition:
+        types:
+        - new
+        - settings
+        - note
+        - abstract
+        - info
+        - tip
+        - success
+        - question
+        - warning
+        - failure
+        - danger
+        - bug
+        - example
+        - quote
+        - caution
   - pymdownx.blocks.definition:
   - pymdownx.blocks.details:
   - pymdownx.blocks.tab:
