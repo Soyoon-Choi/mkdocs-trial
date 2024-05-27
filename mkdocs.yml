@@ -1,8 +1,9 @@
 site_name: Altibase Documentation
 
 theme:
-  name: readthedocs
-  highlightjs: true
+  #name: readthedocs
+  name: material
+  #highlightjs: true
 
 extra_css:
   - custom/style.css
@@ -10,36 +11,33 @@ extra_css:
 plugins:
   - search
 
-#  - mkdocstrings:
-#      handlers:
-#        # See: https://mkdocstrings.github.io/python/usage/
-#        python:
-#          options:
-#            docstring_style: sphinx
 markdown_extensions:
-  # - toc:
-  #- footnotes
+  - attr_list
+  #- toc:
+  #  toc_depth: 3
+  - footnotes
+  - markdown.extensions.footnotes:
   - markdown.extensions.toc:
       slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
       permalink: "#"
   - pymdownx.blocks.html:
   - pymdownx.blocks.admonition:
-        types:
-        - new
-        - settings
-        - note
-        - abstract
-        - info
-        - tip
-        - success
-        - question
-        - warning
-        - failure
-        - danger
-        - bug
-        - example
-        - quote
-        - caution
+      types:
+      - new
+      - settings
+      - note
+      - abstract
+      - info
+      - tip
+      - success
+      - question
+      - warning
+      - failure
+      - danger
+      - bug
+      - example
+      - quote
+      - caution
   - pymdownx.blocks.definition:
   - pymdownx.blocks.details:
   - pymdownx.blocks.tab:
