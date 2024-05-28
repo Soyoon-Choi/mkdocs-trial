@@ -1,5 +1,5 @@
 .md-grid {
-    max-width: 1440px;
+    max-width: 100%;
 }
 
 .image_description{
@@ -15,7 +15,6 @@
 
 html {
     scroll-behavior: smooth;
-    font-size: 0.8vw;
   }
 
 body {
