@@ -1,11 +1,21 @@
-.wy-nav-content {
-    max-width: 95% !important;
+.md-grid {
+    max-width: 90%;
 }
 
-.wy-side-nav-search, .wy-nav-top {
-    background: #105BA4;
+.image_description{
+    display: inline-block;
+    width: 100%;
 }
+
+:root {
+    --md-primary-fg-color:        #105BA4;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #90030C;
+  }
+
+
 
 html {
     scroll-behavior: smooth;
+    /*font-size: 0.8vw;*/
   }
