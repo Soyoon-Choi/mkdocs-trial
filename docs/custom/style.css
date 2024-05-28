@@ -13,9 +13,12 @@
     --md-primary-fg-color--dark:  #90030C;
   }
 
-
-
 html {
     scroll-behavior: smooth;
     font-size: 0.8vw;
   }
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
