@@ -36,7 +36,8 @@ extra_javascript:
   - javascripts/tablesort.js
 
 plugins:
-  - search
+  - search:
+    method: fuzzy
 
 markdown_extensions:
   - attr_list
