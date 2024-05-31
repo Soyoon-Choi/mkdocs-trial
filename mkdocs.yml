@@ -38,6 +38,7 @@ extra_javascript:
 plugins:
   - search:
     method: fuzzy
+    editDistance: 1
 
 markdown_extensions:
   - attr_list
