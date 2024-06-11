@@ -1,4 +1,5 @@
 site_name: Altibase Documentation
+site_url: https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.1/
 
 theme:
   name: material
