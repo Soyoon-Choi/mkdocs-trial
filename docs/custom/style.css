@@ -18,6 +18,6 @@ html {
   }
 
 /* Hide "On Read the Docs" sections from versions menu */
-div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(3) {
+div.injected > div.rst-other-versions > dl:nth-child(3) {
   display: none;
 }
