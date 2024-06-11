@@ -17,6 +17,6 @@ html {
     scroll-behavior: smooth;
   }
 
-.injected {
-  display: none;
-}
+.rst-other-versions > dl:nth-child(3) {
+    display: none;
+ }
