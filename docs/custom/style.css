@@ -17,6 +17,8 @@ html {
     scroll-behavior: smooth;
   }
 
+  readthedocs-flyout { display: none; }
+
 /*body {
     min-height: 100vh;
     width: 100%;
