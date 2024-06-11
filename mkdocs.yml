@@ -9,7 +9,6 @@ theme:
   favicon: img/favicon.ico
   logo: img/logo_w.png
   features:
-    - navigation.path
     - content.code.copy
     - navigation.top
     - navigation.tabs
