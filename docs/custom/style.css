@@ -18,7 +18,7 @@ html {
   }
 
 /* Hide "On Read the Docs" and "On GitHub" sections from versions menu */
-div.injected > div.rst-other-versions > dl:nth-child(3) {
+div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(3) {
   display: none;
 }
 div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(4) {
