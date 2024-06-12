@@ -31,9 +31,8 @@ extra:
 extra_css:
   - custom/style.css
 
-extra_javascript:
-  - 'https://code.jquery.com/jquery-3.6.1.min.js'
-#  - javascripts/tablesort.js
+#extra_javascript:
+#  - 'https://code.jquery.com/jquery-3.6.1.min.js'
 
 plugins:
   - search
