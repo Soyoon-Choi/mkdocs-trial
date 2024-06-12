@@ -4,15 +4,15 @@ Altibase 7.3 국문 매뉴얼 제공 페이지입니다.
 
 |분류|매뉴얼|
 |----|-----|
-|Admin|[Getting Started Guide](../docs/Admin/Administrator's%20Manual/0.서문.md)|
-||[Installation Guide](../docs/Admin/Installation%20Guide/0.서문.md)|
-||[Administrator's Manual](../docs/Admin/Administrator's%20Manual/0.서문.md)|
-||[Replication Manual](../docs/Admin/Replication%20Manual/0.%20서문.md)|
-||[General_Reference-1.Data Types & Altibase Properties](../docs/Admin/General_Reference-1.Data%20Types%20&%20Altibase%20Properties/0.%20서문.md)|
-||[General_Reference-2.The Data Dictionary](../docs/Admin/General_Reference-2.The%20Data%20Dictionary/0.서문.md) |
-||[Performance Tuning Guide](../docs/Admin/Performance%20Tuning%20Guide/0.서문.md)|
-||[SNMP Agent Guide](../docs/Admin/SNMP%20Agent%20Guide/0.서문.md)|
-||[DB Link User's Manual](../docs/Admin/DB%20Link%20User's%20Manual/0.%20서문.md)|
+|Admin|[Getting Started Guide](../7.3/Admin/Administrator's%20Manual/0.서문.md)|
+||[Installation Guide](../7.3/Admin/Installation%20Guide/0.서문.md)|
+||[Administrator's Manual](../7.3/Admin/Administrator's%20Manual/0.서문.md)|
+||[Replication Manual](../7.3/Admin/Replication%20Manual/0.%20서문.md)|
+||[General_Reference-1.Data Types & Altibase Properties](../7.3/Admin/General_Reference-1.Data%20Types%20&%20Altibase%20Properties/0.%20서문.md)|
+||[General_Reference-2.The Data Dictionary](../7.3/Admin/General_Reference-2.The%20Data%20Dictionary/0.서문.md) |
+||[Performance Tuning Guide](../7.3/Admin/Performance%20Tuning%20Guide/0.서문.md)|
+||[SNMP Agent Guide](../7.3/Admin/SNMP%20Agent%20Guide/0.서문.md)|
+||[DB Link User's Manual](../7.3/Admin/DB%20Link%20User's%20Manual/0.%20서문.md)|
 |Application Development|[SQL Reference](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/SQL%20Reference.md)|
 ||[Spatial SQL Reference](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Spatial%20SQL%20Reference.md)|
 ||[Stored Procedures Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Stored%20Procedures%20Manual.md)|
