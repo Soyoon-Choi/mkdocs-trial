@@ -17,6 +17,22 @@ theme:
     - search.suggest
     - search.share
 
+nav:
+  - Home: index.md
+  - Admin:
+    - Getting Started Guide: Admin/Getting Started Guide/
+    - Installation Guide: Admin/Installation Guide/
+    - Administartor's Manual: Admin/Administrator's Manual/
+    - Replication Manual: Admin/Replication Manual/ 
+    - Data Type & Altibase Properties: Admin/General_Reference-1.Data Types & Altibase Properties/
+    - The Data Dictionary: Admin/General_Reference-2.The Data Dictionary/
+    - DB Link User's guide: Admin/DB Link User's Manual/
+    - Performance Tuning Guide: Admin/Performance Tuning Guide/
+    - SNMP Agent Guide: Admin/SNMP Agent Guide/
+  - Developer: Developer/index.md
+  - Tools: Tools/index.md
+  - Version-dependent Tools: Version-dependent Tools/index.md
+
 extra:
 #  version:
 #    alias: true
