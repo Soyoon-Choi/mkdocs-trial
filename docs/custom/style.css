@@ -16,8 +16,3 @@
 html {
     scroll-behavior: smooth;
   }
-
-/* Hide "On Read the Docs" sections from versions menu */
-div.readthedocs-embed-flyout > div.rst-other-versions > dl:nth-child(3) {
-  display: none;
-}
