@@ -17,16 +17,8 @@ html {
     scroll-behavior: smooth;
   }
 
-.md-sidebar .md-nav--primary .md-nav__item--nested {
+  /* Hide nested navigation items (flyout menu) */
+.md-nav__toggle,
+.md-nav__item--nested .md-nav__list {
     display: none !important;
-}
-
-/* Flyout 메뉴의 부모 항목에 대해 hover 시에도 서브메뉴가 나타나지 않도록 합니다 */
-.md-sidebar .md-nav--primary .md-nav__item--nested > .md-nav__link:hover + .md-nav__list {
-  display: none !important;
-}
-
-/* Flyout 메뉴가 있는 항목의 아이콘을 숨깁니다 */
-.md-sidebar .md-nav--primary .md-nav__item--nested > .md-nav__link::after {
-  display: none !important;
 }
