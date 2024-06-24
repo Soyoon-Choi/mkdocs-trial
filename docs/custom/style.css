@@ -16,3 +16,7 @@
 html {
     scroll-behavior: smooth;
   }
+
+.md-sidebar .md-nav--primary .md-nav__item--nested {
+    display: none !important;
+}
