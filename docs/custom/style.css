@@ -17,8 +17,10 @@ html {
     scroll-behavior: smooth;
   }
 
-  /* Hide nested navigation items (flyout menu) */
-.md-nav__toggle,
-.md-nav__item--nested .md-nav__list {
-    display: none !important;
+  .wy-nav-side {
+    display: none;
+}
+
+.wy-nav-content-wrap {
+    margin-left: 0;
 }
