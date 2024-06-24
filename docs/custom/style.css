@@ -16,11 +16,3 @@
 html {
     scroll-behavior: smooth;
   }
-
-  .wy-nav-side {
-    display: none;
-}
-
-.wy-nav-content-wrap {
-    margin-left: 0;
-}
