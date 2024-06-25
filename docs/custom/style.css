@@ -16,3 +16,5 @@
 html {
     scroll-behavior: smooth;
 }
+
+readthedocs-flyout { display: none; }
