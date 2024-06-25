@@ -1,4 +1,4 @@
-- [어서오세요](index.md)
+- [Home](index.md)
 - Admin
     - Getting Started Gudie
         - Admin/Getting Started Guide/*.md
@@ -37,3 +37,9 @@
         - Admin/Performance Tuning Guide/*.md
     - SNMP Agent Guide
         - Admin/SNMP Agent Guide/*.md
+- Developer
+    - Developer/*.md
+- Version-Dependent Tools
+    - Version-dependent Tools/*.md
+- Tools
+    - Tools/*.md
