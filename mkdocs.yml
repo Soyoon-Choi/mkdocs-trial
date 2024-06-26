@@ -27,7 +27,7 @@ extra:
       lang: ko
   analytics:
     provider: google
-    property: G-XQGH6FBLTP5
+    property: G-QGH6FBLTP5
 
 extra_css:
   - custom/style.css
