@@ -25,6 +25,9 @@ extra:
     - name: Korean
       link: /ko/
       lang: ko
+  analytics:
+    provider: google
+    property: G-XQGH6FBLTP5
 
 extra_css:
   - custom/style.css
