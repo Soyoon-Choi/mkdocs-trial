@@ -3,6 +3,7 @@ site_url: https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     primary: custom
     accent: teal
