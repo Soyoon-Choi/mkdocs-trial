@@ -20,10 +20,10 @@ theme:
 extra:
   alternate:
     - name: English
-      link: /en/
+      link: /en/7.1/
       lang: en
     - name: Korean
-      link: /ko/
+      link: /ko/7.1/
       lang: ko
   analytics:
     provider: google
