@@ -11,7 +11,7 @@ Altibase는 고성능, 고가용성, 확장성을 갖춘 하이브리드 DBMS입
 
     DBMS 관리자 및 일반 사용자라면
 
-    [:octicons-arrow-right-24: Admin](../docs/Admin/Getting%20Started%20Guide/0.서문.md)
+    [:octicons-arrow-right-24: Admin](Admin/Getting%20Started%20Guide/0.서문.md)
 
 -   __Developer__
 
