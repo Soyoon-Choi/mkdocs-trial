@@ -38,8 +38,8 @@ Altibase는 고성능, 고가용성, 확장성을 갖춘 하이브리드 DBMS입
         [Administrator's Manual](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Administrator%27s%20Manual/0.%EC%84%9C%EB%AC%B8/)<br>
         Replication Manual<br>
         General_Reference<br>
-            1.Data Types & Altibase Properties<br>
-            2.The Data Dictionary<br>
+            - Data Types & Altibase Properties<br>
+            - The Data Dictionary<br>
         Performance Tuning Guide<br>
         SNMP Agent Guide<br>
         DB Link User's Manual<br>
