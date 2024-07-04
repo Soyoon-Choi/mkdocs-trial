@@ -33,7 +33,7 @@ Altibase는 고성능, 고가용성, 확장성을 갖춘 하이브리드 DBMS입
 
 !!! note "매뉴얼 퀵 가이드"
     === "DBMS 관리자라면"
-        [Getting Started Guide](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Getting%20Started%20Guide/0.%EC%84%9C%EB%AC%B8/)
+        [Getting Started Guide](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Getting%20Started%20Guide/0.%EC%84%9C%EB%AC%B8/)<br>
         [Installation Guide](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Installation%20Guide/0.%EC%84%9C%EB%AC%B8/)
         [Administrator's Manual](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Administrator%27s%20Manual/0.%EC%84%9C%EB%AC%B8/)
         Replication Manual
