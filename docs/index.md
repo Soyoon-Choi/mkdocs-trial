@@ -34,15 +34,15 @@ Altibase는 고성능, 고가용성, 확장성을 갖춘 하이브리드 DBMS입
 !!! note "매뉴얼 퀵 가이드"
     === "DBMS 관리자라면"
         [Getting Started Guide](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Getting%20Started%20Guide/0.%EC%84%9C%EB%AC%B8/)<br>
-        [Installation Guide](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Installation%20Guide/0.%EC%84%9C%EB%AC%B8/)
-        [Administrator's Manual](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Administrator%27s%20Manual/0.%EC%84%9C%EB%AC%B8/)
-        Replication Manual
-        General_Reference
-            1.Data Types & Altibase Properties
-            2.The Data Dictionary
-        Performance Tuning Guide
-        SNMP Agent Guide
-        DB Link User's Manual
+        [Installation Guide](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Installation%20Guide/0.%EC%84%9C%EB%AC%B8/)<br>
+        [Administrator's Manual](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Administrator%27s%20Manual/0.%EC%84%9C%EB%AC%B8/)<br>
+        Replication Manual<br>
+        General_Reference<br>
+            1.Data Types & Altibase Properties<br>
+            2.The Data Dictionary<br>
+        Performance Tuning Guide<br>
+        SNMP Agent Guide<br>
+        DB Link User's Manual<br>
        
     === "개발자라면"
         - [SQL Reference](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/SQL%20Reference.md)
