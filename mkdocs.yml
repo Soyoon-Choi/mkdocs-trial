@@ -44,15 +44,11 @@ markdown_extensions:
   - footnotes
   - def_list
   - admonition
-  - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
   - markdown.extensions.toc:
       slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
       permalink: "#"
       toc_depth: 4
-  - pymdownx.blocks.html:
   - pymdownx.blocks.details:
   - pymdownx.blocks.tab:
   - pymdownx.caret:
