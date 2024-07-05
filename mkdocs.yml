@@ -52,9 +52,6 @@ markdown_extensions:
       slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
       permalink: "#"
       toc_depth: 4
-  - pymdownx.blocks.html:
-  - pymdownx.blocks.details:
-  - pymdownx.blocks.tab:
   - pymdownx.caret:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
