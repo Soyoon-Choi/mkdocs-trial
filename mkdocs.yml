@@ -17,6 +17,7 @@ theme:
     - navigation.tabs.sticky
     - search.suggest
     - search.share
+    - search.boost
 
 extra:
   alternate:
