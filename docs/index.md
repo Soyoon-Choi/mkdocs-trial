@@ -1,6 +1,7 @@
 # Altibase 7.3 매뉴얼
 
-Altibase란?
+**Altibase란?**
+
 Altibase는 고성능, 고가용성, 확장성을 갖춘 하이브리드 DBMS입니다. In-memory와 Disk-based 아키텍처를 결합하여 빠른 데이터 처리 속도와 안정성을 동시에 제공합니다. 수많은 기업들이 Altibase를 통해 대용량 데이터를 효율적으로 관리하고 있습니다.
 
 <div class="grid cards" markdown>
@@ -25,7 +26,7 @@ Altibase는 고성능, 고가용성, 확장성을 갖춘 하이브리드 DBMS입
     ---
 
     Altibase 버전이 있는 도구 문서
-    [:octicons-arrow-right-24: Tools](Version-dependent Tools/index.md)
+    [:octicons-arrow-right-24: Version-dependent Tools](Version-dependent Tools/index.md)
 
 -   __Tools__
 
