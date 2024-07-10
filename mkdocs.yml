@@ -13,7 +13,6 @@ theme:
   features:
     - content.code.copy
     - navigation.top
-    - navigation.path
     - navigation.tabs
     - navigation.tabs.sticky
     - search.suggest
