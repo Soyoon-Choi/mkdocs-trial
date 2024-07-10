@@ -39,6 +39,7 @@ plugins:
       lang: 
         - en
         - ko
+      separator: '[\s\-,:!=\[\]()"/]+'
   - literate-nav:
       nav_file: SUMMARY.md
 
