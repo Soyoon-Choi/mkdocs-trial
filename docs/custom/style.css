@@ -13,8 +13,4 @@
     --md-primary-fg-color--dark:  #90030C;
   }
 
-html {
-    scroll-behavior: smooth;
-}
-
 readthedocs-flyout { display: none; }
