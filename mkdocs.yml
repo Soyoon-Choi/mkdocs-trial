@@ -36,6 +36,9 @@ extra_css:
 
 plugins:
   - search
+  - exclude-search:
+      exclude:
+        - SUMMARY.md
   - literate-nav:
       nav_file: SUMMARY.md
 

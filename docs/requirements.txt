@@ -2,3 +2,4 @@ markdown
 pymdown-extensions
 mkdocs-material
 mkdocs-literate-nav
+mkdocs-exclude-search
