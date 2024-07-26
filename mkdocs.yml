@@ -38,7 +38,7 @@ plugins:
   - search
   - exclude-search:
       exclude:
-        - docs/SUMMARY.md
+        - SUMMARY.md
   - literate-nav:
       nav_file: SUMMARY.md
 
