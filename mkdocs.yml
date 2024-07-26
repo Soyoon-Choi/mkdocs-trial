@@ -5,7 +5,7 @@ theme:
   name: material
   custom_dir: overrides
   static_templates:
-    - 404.html
+    - overrides/404.html
   palette:
     primary: custom
     accent: teal
