@@ -1,8 +1,3 @@
----
-search:
-  exclude: true
----
-
 - [Home](index.md)
 - Admin
     - Getting Started Gudie
