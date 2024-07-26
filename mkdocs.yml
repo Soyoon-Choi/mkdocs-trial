@@ -4,8 +4,6 @@ site_url: https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com
 theme:
   name: material
   custom_dir: overrides
-  static_template:
-    - 404.html
   palette:
     primary: custom
     accent: teal
