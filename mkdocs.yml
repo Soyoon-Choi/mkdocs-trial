@@ -40,6 +40,9 @@ plugins:
         - en
         - ko
       separator: '[\s\-,:!=\[\]()"/]+'
+  - exclude-search:
+    exclude:
+      - SUMMARY.md
   - literate-nav:
       nav_file: SUMMARY.md
 
