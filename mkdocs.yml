@@ -35,7 +35,7 @@ extra_css:
   - custom/style.css
 
 plugins:
-  - search
+  - search:
       lang: 
         - en
         - ko
