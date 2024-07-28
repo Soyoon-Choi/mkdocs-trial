@@ -21,6 +21,10 @@ Altibase는 고성능, 고가용성, 확장성을 갖춘 하이브리드 DBMS입
     Altibase의 개발자 문서
     [:octicons-arrow-right-24: Developer](Developer/index.md)
 
+</div>
+
+<div class="grid cards" markdown>
+
 -   __Version-dependent Tools__
 
     ---

@@ -39,7 +39,6 @@ plugins:
       lang: 
         - en
         - ko
-      separator: '[\s\-,:!=\[\]()"/]+'
   - exclude-search:
       exclude:
         - SUMMARY.md
