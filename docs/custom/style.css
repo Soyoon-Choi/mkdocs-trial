@@ -9,8 +9,6 @@
 
 :root {
     --md-primary-fg-color:        #105BA4;
-    --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark:  #90030C;
   }
 
 readthedocs-flyout { display: none; }
