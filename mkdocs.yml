@@ -15,6 +15,7 @@ theme:
     - navigation.top
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.footer
     - search.suggest
     - search.share
     - search.boost
@@ -27,6 +28,9 @@ extra:
     - name: Korean
       link: /ko/
       lang: ko
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/ALTIBASE/Documents/tree/master/Manuals/Altibase_7.3/kor
   analytics:
     provider: google
     property: G-QGH6FBLTP5
