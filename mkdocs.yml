@@ -34,6 +34,7 @@ extra:
   analytics:
     provider: google
     property: G-QGH6FBLTP5
+  generator: false
 
 extra_css:
   - custom/style.css
