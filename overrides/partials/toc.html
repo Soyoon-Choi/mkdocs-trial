@@ -1,30 +1,62 @@
 {#- 
-    This file was automatically generated - do not edit 
-  -#}
-  {% set title = lang.t("toc") %}
-  {% if config.mdx_configs.toc and config.mdx_configs.toc.title %}
-    {% set title = config.mdx_configs.toc.title %}
+  This file was automatically generated - do not edit 
+-#}
+{% set title = lang.t("toc") %}
+{% if config.mdx_configs.toc and config.mdx_configs.toc.title %}
+  {% set title = config.mdx_configs.toc.title %}
+{% endif %}
+<nav class="md-nav md-nav--secondary" aria-label="{{ title }}">
+  {% set toc = page.toc %}
+  {% set first = toc | first %}
+  {% if first and first.level == 1 %}
+    {% set toc = first.children %}
   {% endif %}
-  <nav class="md-nav md-nav--secondary" aria-label="{{ title }}">
-    {% set toc = page.toc %}
-    {% set first = toc | first %}
-    {% if first and first.level == 1 %}
-      {% set toc = first.children %}
-    {% endif %}
-    {% if toc %}
-      <label class="md-nav__title" for="__toc">
-        <span class="md-nav__icon md-icon"></span>
-        {{ title }}
-      </label>
-      <!-- Collapsible TOC button -->
-      <button class="md-banner__button md-icon" aria-label="{{ lang.t('announce.dismiss') }}">{% set icon = config.theme.icon.close or "material/close" %}
-        {% include ".icons/" ~ icon ~ ".svg" %}</button>
+  {% if toc %}
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      {{ title }}
+    </label>
+    <!-- Collapsible TOC button -->
+    <button id="toc-toggle" class="toc-toggle-btn" aria-expanded="false">Toggle Table of Contents</button>
+    
+    <!-- TOC list with collapsible functionality -->
+    <ul id="toc-list" class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      {% for toc_item in toc %}
+        {% include "partials/toc-item.html" %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+</nav>
+
+<style>
+  /* Hidden by default for collapsible effect */
+  #toc-list.collapsed {
+    display: none;
+  }
+  
+  /* Style for the toggle button */
+  .toc-toggle-btn {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px;
+    text-decoration: underline;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var tocToggle = document.getElementById('toc-toggle');
+    var tocList = document.getElementById('toc-list');
+    
+    tocToggle.addEventListener('click', function() {
+      var isExpanded = tocToggle.getAttribute('aria-expanded') === 'true';
       
-      <!-- TOC list with collapsible functionality -->
-      <ul id="toc-list" class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-        {% for toc_item in toc %}
-          {% include "partials/toc-item.html" %}
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </nav>
+      // Toggle the expanded/collapsed state
+      tocToggle.setAttribute('aria-expanded', !isExpanded);
+      tocList.classList.toggle('collapsed');
+    });
+  });
+</script>
