@@ -1,3 +1,7 @@
+---
+hide:
+  - footer
+---
 # Altibase 7.3 매뉴얼
 
 **Altibase란?**
