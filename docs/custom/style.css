@@ -12,3 +12,11 @@
   }
 
 readthedocs-flyout { display: none; }
+
+#custom-nav {
+    display: none;
+}
+  
+#custom-nav.open {
+    display: block;
+}
