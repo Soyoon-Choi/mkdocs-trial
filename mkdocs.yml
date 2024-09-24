@@ -20,7 +20,6 @@ theme:
     - search.share
     - search.boost
     - toc.follow
-    - header.autohide
 
 extra:
   alternate:
