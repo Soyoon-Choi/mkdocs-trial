@@ -2,6 +2,7 @@
 hide:
   - footer
   - navigation
+  - toc
 ---
 # Altibase 7.3 매뉴얼
 
