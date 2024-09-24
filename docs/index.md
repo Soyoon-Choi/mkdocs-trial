@@ -1,6 +1,7 @@
 ---
 hide:
   - footer
+  - navigation
 ---
 # Altibase 7.3 매뉴얼
 
