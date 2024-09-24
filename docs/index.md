@@ -47,17 +47,6 @@ Altibase는 고성능, 고가용성, 확장성을 갖춘 하이브리드 DBMS입
 
 </div>
 
-<div class="grid cards" markdown>
-
--   __Altibase 7.1__
-
-    ---
-
-    Altibase 7.1 매뉴얼은 여기로
-    [:octicons-arrow-right-24: Altibase 7.1 Documentation](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.1/)
-
-</div>
-
 === "Admin"
     - [Getting Started Guide](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Getting%20Started%20Guide/0.%EC%84%9C%EB%AC%B8/)
     - [Installation Guide](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Installation%20Guide/0.%EC%84%9C%EB%AC%B8/)
