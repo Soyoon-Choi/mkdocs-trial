@@ -71,25 +71,14 @@
         </div>
       </div>
     </div>
-    <!--
-    <div class="dropdown">
-        <input type="checkbox" id="dropdown-toggle" class="dropdown-checkbox">
-        <label for="dropdown-toggle" class="dropdown-toggle">
-          Versions <span class="dropdown-arrow">▼</span>
-        </label>
-        <div class="dropdown-menu">
-          <a href="https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.1/" class="dropdown-item">7.1</a>
-          <a href="https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/" class="dropdown-item">7.3</a>
-        </div>
-      </div>
-      -->
 
+    <!-- Product Version Setting -->
       {% set version_links = [
-        {'link': 'https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.1/', 'name': 'Version 7.1'},
-        {'link': 'https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/', 'name': 'Version 7.3'}
+        {'link': 'https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.1/', 'name': '7.1'},
+        {'link': 'https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/', 'name': '7.3'}
       ] %}
 
-      <div class="md-header__option">
+      <div class="md-header__option" sytle="margin: auto">
         <div class="md-select">
           {% set icon = "material/alpha-v" %}
           <button class="md-header__button md-icon">
@@ -108,7 +97,6 @@
           </div>
         </div>
       </div>
-
 
     <!-- Color palette toggle -->
     {% if config.theme.palette %}
