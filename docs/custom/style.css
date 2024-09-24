@@ -56,14 +56,3 @@ readthedocs-flyout { display: none; }
   #toggle-arrow {
     font-size: 18px;
   }
-
-  /* 기본적으로 사이드바가 열렸을 때 콘텐츠의 좌측 여백 */
-#page-content {
-    transition: margin-left 0.3s ease-in-out, width 0.3s ease-in-out;
-  }
-  
-  /* 사이드바가 닫혔을 때 콘텐츠 확장 */
-  #page-content.expanded {
-    margin-left: -10%;
-    width: calc(100% - 40px); /* 사이드바 숨길 때 버튼이 나올 공간 고려 */
-  }
