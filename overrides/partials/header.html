@@ -71,7 +71,7 @@
         </div>
       </div>
     </div>
-
+    <!--
     <div class="dropdown">
         <input type="checkbox" id="dropdown-toggle" class="dropdown-checkbox">
         <label for="dropdown-toggle" class="dropdown-toggle">
@@ -82,6 +82,32 @@
           <a href="https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/" class="dropdown-item">7.3</a>
         </div>
       </div>
+      -->
+      
+      {% set version_links = [
+        {'link': 'https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.1/', 'name': 'Version 7.1', 'lang': 'ko'},
+        {'link': 'https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/', 'name': 'Version 7.3', 'lang': 'ko'}
+      ] %}
+
+      <div class="md-header__option">
+        <div class="md-select">
+          {% set icon = "material/alpha-v-box-outline" %}
+          <button class="md-header__button md-icon">
+            {% include ".icons/" ~ icon ~ ".svg" %}
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              {% for version in version_links %}
+              <li class="md-select__item">
+                <a href="{{ version.link }}" hreflang="{{ version.lang }}" class="md-select__link">
+                  {{ alt.name }}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
 
     <!-- Color palette toggle -->
     {% if config.theme.palette %}
