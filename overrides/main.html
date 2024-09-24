@@ -41,7 +41,19 @@
           margin-left: auto;
           transition: transform 0.3s ease;
         }
+        /* Rotate the arrow when checkbox is checked */
+      input[type="checkbox"]:checked + .collapse-btn::after {
+        transform: rotate(180deg); /* Up arrow */
+      }
+
+      /* Show the collapsible content when checkbox is checked */
+      input[type="checkbox"]:checked ~ .collapse-content {
+        max-height: 500px; /* Adjust based on your content height */
+      }
       </style>
+
+      <!-- Checkbox to control the collapsible section -->
+      <input type="checkbox" id="collapse-toggle" style="display: none;">
 
       <!-- Button to trigger collapse -->
       <label for="collapse-toggle" class="collapse-btn">Toggle Section</label>
@@ -57,7 +69,6 @@
           </div>
         </div>
       </div>
-    </div>
   {% endif %}
   {% if "toc.integrate" not in features %}
     {% if page.meta and page.meta.hide %}
@@ -71,4 +82,5 @@
       </div>
     </div>
   {% endif %}
+</div>
 {% endblock %}
