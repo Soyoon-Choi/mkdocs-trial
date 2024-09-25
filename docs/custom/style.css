@@ -13,108 +13,39 @@
 
 readthedocs-flyout { display: none; }
 
-/* Initially visible sidebar */
+/* Sidebar and toggle arrow always visible */
 #custom-nav {
-    width: 250px;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  /* Hidden state with animation */
-  #custom-nav.hidden {
-    transform: translateX(-250px);
-  }
-  
-  /* Sliding in and out animation */
-  .slide-in {
-    transform: translateX(0);
-  }
-  
-  .slide-out {
-    transform: translateX(-250px);
-  }
-  
-  /* Toggle button styling */
-  .md-nav__toggle {
-    position: fixed;
-    top: auto;
-    left: 250px;  /* Start at the edge of the sidebar */
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 1000; /* Ensure the button stays on top */
-    transition: left 0.3s ease-in-out; /* Move the button smoothly */
-  }
-  
-  /* When sidebar is hidden, move the button to the left */
-  .md-nav__toggle.right {
-    left: 0; /* Place at the screen edge */
-  }
-  
-  /* Adjust arrow appearance */
-  #toggle-arrow {
-    font-size: 18px;
-  }
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
 
-/* 드롭다운 컨테이너 스타일 */
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* 드롭다운 버튼 스타일 */
-  .dropdown-toggle {
-    font-weight: bold;
-    color: white;
-    background-color: #105BA4;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    display: inline-block;
-  }
-  
-  /* 삼각형(▼) 스타일 */
-  .dropdown-arrow {
-    margin-left: 10px;
-    transition: transform 0.3s ease;
-  }
-  
-  /* 체크박스 숨김 */
-  .dropdown-checkbox {
-    display: none;
-  }
-  
-  /* 드롭다운 메뉴 숨김 */
-  .dropdown-menu {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* 드롭다운 항목 스타일 */
-  .dropdown-item {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* 드롭다운 항목 hover 스타일 */
-  .dropdown-item:hover {
-    background-color: #f1f1f1;
-  }
-  
-  /* 체크박스가 체크되면 드롭다운 메뉴 보이게 함 */
-  .dropdown-checkbox:checked + .dropdown-toggle + .dropdown-menu {
-    display: block;
-  }
-  
-  /* 체크박스가 체크되면 삼각형 방향 변환 */
-  .dropdown-checkbox:checked + .dropdown-toggle .dropdown-arrow {
-    transform: rotate(180deg);
-  }
+/* Hidden state with animation */
+#custom-nav.hidden {
+  transform: translateX(-100%);
+}
+
+/* Sliding in and out animation */
+.slide-in {
+  transform: translateX(0%);
+}
+
+.slide-out {
+  transform: translateX(-100%);
+}
+
+/* Toggle button styling */
+.md-nav__toggle {
+  position: absolute;
+  bottom: 10px;   /* Align the button to the bottom */
+  left: 90%;      /* Initially placed on the right side (for open nav) */
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;  /* Ensure the button stays on top */
+  transition: left 0.3s ease-in-out; /* Smooth transition for moving left or right */
+}
+
+/* Adjust arrow appearance */
+#toggle-arrow {
+  font-size: 30px;
+}

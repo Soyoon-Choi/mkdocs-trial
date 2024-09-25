@@ -10,12 +10,6 @@
     {% set class = class ~ " md-nav--integrated" %}
   {% endif %}
   <nav class="{{ class }}" aria-label="{{ lang.t('nav') }}" data-md-level="0" id="custom-nav">
-    
-    <!-- Add a button to toggle the navigation with arrow icons -->
-  <button id="nav-toggle" class="md-nav__toggle">
-    <span id="toggle-arrow">←</span>
-  </button>
-
     <label class="md-nav__title" for="__drawer">
       <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-nav__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
         {% include "partials/logo.html" %}
