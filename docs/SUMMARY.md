@@ -37,9 +37,54 @@
         - Admin/Performance Tuning Guide/*.md
     - SNMP Agent Guide
         - Admin/SNMP Agent Guide/*.md
+    - Error Message
+        - Admin/Error Message Reference/*.md
 - Developer
-    - Developer/*.md
+    - API User's Manual
+        - Developer/API User's Manual/*.md
+    - CLI User's Manual
+        - Developer/CLI User's Manual/*.md
+    - External Procedures Manual
+        - Developer/External Procedures Manual/*.md
+    - JDBC User's Manual
+        - Developer/JDBC User's Manual/*.md
+    - ODBC User's Manual
+        - Developer/ODBC User's Manual/*.md
+    - Precompiler User's Manual
+        - Developer/Precompiler User's Manual/*.md
+    - Spatial SQL Reference
+        - Developer/Spatial SQL Reference/*.md
+    - Stored Procedures Manual
+        - Developer/Stored Procedures Manual/*.md
 - Version-Dependent Tools
-    - Version-dependent Tools/*.md
+    - Adapter for JDBC User's Manual 
+        - Version-dependent Tools/Adapter for JDBC User's Manual/*.md
+    - Adapter for Oracle User's Manual
+        - Version-dependent Tools/Adapter for Oracle User's Manual/*.md
+    - Altibase C Interface Manual
+        - Version-dependent Tools/Altibase C Interface Manual/*.md
+    - Altibase SSL TLS User's Guide
+        - Version-dependent Tools/Altibase SSL TLS User's Guide/*.md
+    - Hadoop Connector User's Manual
+        - Version-dependent Tools/Hadoop Connector User's Manual/*.md
+    - iLoader User's Manual
+        - Version-dependent Tools/iLoader User's Manual/*.md
+    - iSQL User's Manual
+        - Version-dependent Tools/iSQL User's Manual/*.md
+    - Log Analyzer User's Manual
+        - Version-dependent Tools/Log Analyzer User's Manual/*.md
+    - Monitoring API Developer's Guide
+        - Version-dependent Tools/Monitoring API Developer's Guide/*.md
+    - Utilities Manual
+        - Version-dependent Tools/Utilities Manual/*.md
 - Tools
-    - Tools/*.md
+    - Altibase 3rd Party Connector Guide
+        - Tools/Altibase 3rd Party Connector Guide/*.md
+    - Altibase Heartbeat User's Guide
+        - Tools/Altibase Heartbeat User's Guide/*.md
+    - altiShapeLoader User's Manual
+        - Tools/altiShapeLoader User's Manual/*.md
+    - dataCompJ User's Manual
+        - Tools/dataCompJ User's Manual/*.md
+    - Migration Center User's Manual
+        - Tools/Migration Center User's Manual/*.md

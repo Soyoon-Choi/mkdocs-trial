@@ -10,43 +10,6 @@ hide:
 
 Altibase는 고성능, 고가용성, 확장성을 갖춘 하이브리드 DBMS입니다. In-memory와 Disk-based 아키텍처를 결합하여 빠른 데이터 처리 속도와 안정성을 동시에 제공합니다. 수많은 기업들이 Altibase를 통해 대용량 데이터를 효율적으로 관리하고 있습니다.
 
-<div class="grid cards" markdown>
-
--   __Administrator__
-
-    ---
-
-    DBMS 관리자 및 일반 사용자
-
-    [:octicons-arrow-right-24: Admin](Admin/Getting%20Started%20Guide/0.서문.md)
-
--   __Developer__
-
-    ---
-
-    Altibase의 개발자 문서
-    [:octicons-arrow-right-24: Developer](Developer/index.md)
-
-</div>
-
-<div class="grid cards" markdown>
-
--   __Version-dependent Tools__
-
-    ---
-
-    Altibase 버전이 있는 도구 문서
-    [:octicons-arrow-right-24: Version-dependent Tools](Version-dependent Tools/index.md)
-
--   __Tools__
-
-    ---
-
-    Altibase 도구 문서
-    [:octicons-arrow-right-24: Tools](Tools/index.md)
-
-</div>
-
 === "Admin"
     - [Getting Started Guide](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Getting%20Started%20Guide/0.%EC%84%9C%EB%AC%B8/)
     - [Installation Guide](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Installation%20Guide/0.%EC%84%9C%EB%AC%B8/)
