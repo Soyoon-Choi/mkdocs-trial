@@ -49,8 +49,6 @@ plugins:
         - en
         - ko
       separator: '[\s\-\_,:!=\[\]()"/]+|\.(?!\d)|&[lg]t;'
-      #pipeline:
-      #  - trimmer
   - exclude-search:
       exclude:
         - SUMMARY.md
