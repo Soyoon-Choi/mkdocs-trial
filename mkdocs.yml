@@ -48,9 +48,9 @@ plugins:
       lang: 
         - en
         - ko
-      separator: '[\-,:!=\[\]()"/]|&[lg]t;'
-      pipeline:
-        - trimmer
+      separator: '[\s\-\_,:!=\[\]()"/]+|\.(?!\d)|&[lg]t;'
+      #pipeline:
+      #  - trimmer
   - exclude-search:
       exclude:
         - SUMMARY.md
