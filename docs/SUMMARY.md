@@ -54,6 +54,8 @@
         - Developer/Precompiler User's Manual/*.md
     - Spatial SQL Reference
         - Developer/Spatial SQL Reference/*.md
+    - SQL Reference
+        - Developer/SQL Reference/*.md
     - Stored Procedures Manual
         - Developer/Stored Procedures Manual/*.md
 - Version-Dependent Tools
