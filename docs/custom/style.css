@@ -2,6 +2,10 @@
     max-width: 100%;
 }
 
+html{
+  font-size: 1.25rem;
+}
+
 .image_description{
     display: inline-block;
     width: 100%;
@@ -22,3 +26,4 @@ readthedocs-flyout { display: none; }
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
+
