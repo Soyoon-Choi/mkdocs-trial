@@ -32,6 +32,8 @@ extra:
   social:
     - icon: fontawesome/brands/github 
       link: https://github.com/ALTIBASE/Documents/tree/master/Manuals/Altibase_7.3/kor
+    - icon: octicons/home/16
+      link: https://www.altibase.com/kr/index.php
   analytics:
     provider: google
     property: G-QGH6FBLTP5
