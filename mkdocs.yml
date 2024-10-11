@@ -54,6 +54,9 @@ plugins:
         - SUMMARY.md
   - literate-nav:
       nav_file: SUMMARY.md
+  - social:
+      cards_layout_options:
+        font_family: Noto Sans KR
 
 markdown_extensions:
   - attr_list
