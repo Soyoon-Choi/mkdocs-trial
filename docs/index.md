@@ -28,7 +28,8 @@ Altibase는 고성능, 고가용성, 확장성을 갖춘 하이브리드 DBMS입
     Focus on your content and generate a responsive and searchable static site
 
     [:octicons-arrow-right-24: Developers](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/SQL%20Reference.md)
-
+</div>
+<div class="grid cards" markdown>
 -   :octicons-tools-16:{ .lg .middle } __Tools within Pakages__
 
     ---
