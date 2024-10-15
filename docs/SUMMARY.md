@@ -90,3 +90,5 @@
         - Tools/Migration Center User's Manual/*.md
     - Hadoop Connector User's Manual
         - Tools/Hadoop Connector User's Manual/*.md
+    - Replication Manager User's Manual
+        - Tools/Replication Manager User's Manual/*.md
