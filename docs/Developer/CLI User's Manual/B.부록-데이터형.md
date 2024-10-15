@@ -77,7 +77,7 @@ C 데이터 타입은 *type* 인자와 함께 SQLBindCol()과 SQLGetData()에 �
 
 ### SQL 데이터형을 C 데이터형으로 변환하기
 
-![](media/CLI/CLI.1.94.1.jpg)
+![](../../media/CLI/CLI.1.94.1.jpg)
 
 
 
@@ -119,7 +119,7 @@ C 데이터 타입은 *type* 인자와 함께 SQLBindCol()과 SQLGetData()에 �
 
 ### C 데이터형을 SQL 데이터형으로 변환하기
 
-![](media/CLI/CLI.1.95.1.jpg)
+![](../../media/CLI/CLI.1.95.1.jpg)
 
 
 

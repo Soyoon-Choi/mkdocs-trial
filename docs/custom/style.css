@@ -6,11 +6,6 @@ html{
   font-size: 1.25rem;
 }
 
-.image_description{
-    display: inline-block;
-    width: 100%;
-}
-
 :root {
     --md-primary-fg-color:        #105BA4;
   }
