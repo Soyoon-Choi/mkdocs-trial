@@ -30,14 +30,20 @@ extra:
       link: /ko/
       lang: ko
   social:
+    - icon: material/shield-account
+      link: https://www.altibase.com/en/etc/privacy.php
+      name: 개인정보 처리방침
     - icon: fontawesome/brands/github 
       link: https://github.com/ALTIBASE/Documents/tree/master/Manuals/Altibase_7.3/kor
     - icon: fontawesome/solid/house
       link: https://www.altibase.com/kr/index.php
+
   analytics:
     provider: google
     property: G-QGH6FBLTP5
   generator: false
+
+copyright: © 1999-2024 Altibase Corp.
 
 extra_css:
   - custom/style.css
