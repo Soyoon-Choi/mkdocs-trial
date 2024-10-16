@@ -42,7 +42,7 @@ hide:
 
 </div>
 <div class="grid cards" markdown>
--   :octicons-tools-16:{ .lg .middle } __Tools within Pakages__
+-   :octicons-tools-16:{ .lg .middle } __Tools Within Package__
 
     ---
 
