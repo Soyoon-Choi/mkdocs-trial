@@ -1,10 +1,10 @@
 - [Home](index.md)
 - Admin
-    - Getting Started Gudie
+    - Getting Started Guide
         - Admin/Getting Started Guide/*.md
     - Installation Guide
         - Admin/Installation Guide/*.md
-    - Administrator's Manual    
+    - Administrator's Manual
         - [서문](Admin/Administrator's Manual/0.서문.md)
         - [1.Altibase 소개](Admin/Administrator's Manual/1.Altibase-소개.md)
         - [2.Altibase 구성요소](Admin/Administrator's Manual/2.Altibase-구성요소.md)
@@ -64,7 +64,7 @@
         - Developer/Stored Procedures Manual/*.md
     - Monitoring API Developer's Guide
         - Developer/Monitoring API Developer's Guide/*.md
-- Version-Dependent Tools
+- Tools within Pakages
     - Adapter for JDBC User's Manual 
         - Version-dependent Tools/Adapter for JDBC User's Manual/*.md
     - Adapter for Oracle User's Manual
@@ -77,7 +77,7 @@
         - Version-dependent Tools/Log Analyzer User's Manual/*.md
     - Utilities Manual
         - Version-dependent Tools/Utilities Manual/*.md
-- Tools
+- External Tools
     - Altibase 3rd Party Connector Guide
         - Tools/Altibase 3rd Party Connector Guide/*.md
     - Altibase Heartbeat User's Guide

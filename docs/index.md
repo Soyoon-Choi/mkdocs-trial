@@ -1,59 +1,116 @@
 ---
 hide:
   - footer
-  - navigation
   - toc
 ---
 # Altibase 7.3 매뉴얼
 
-**Altibase란?**
-
-Altibase는 고성능, 고가용성, 확장성을 갖춘 하이브리드 DBMS입니다. In-memory와 Disk-based 아키텍처를 결합하여 빠른 데이터 처리 속도와 안정성을 동시에 제공합니다. 수많은 기업들이 Altibase를 통해 대용량 데이터를 효율적으로 관리하고 있습니다.
-
 <div class="grid cards" markdown>
 
--   :material-database:{ .lg .middle } __For Administartors__
+-   :octicons-desktop-download-16:{ .lg .middle } __Getting started__
 
     ---
 
-    Install [`mkdocs-material`](#) with [`pip`](#) and get up
-    and running in minutes
+    어쩌구저쩌구 시작하기
 
-    [:octicons-arrow-right-24: Administartor](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Getting%20Started%20Guide/0.%EC%84%9C%EB%AC%B8/)
+    [Getting Started Guide](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Getting%20Started%20Guide/0.%EC%84%9C%EB%AC%B8/)<br>
+    [Installation Guide]()<br>
+    [Release Note]()
 
--   :material-language-csharp:{ .lg .middle } __Developers__
+
+-   :material-database:{ .lg .middle } __Administration__
 
     ---
 
-    Focus on your content and generate a responsive and searchable static site
+    데이터베이스 관리자 용 알티베이스 기능 설명
 
-    [:octicons-arrow-right-24: Developers](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/SQL%20Reference.md)
+    [Administrator's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/SQL%20Reference.md)<br>
+    [Replication Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/SQL%20Reference.md)<br>
+    [Performance Tuning Guide](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/SQL%20Reference.md)<br>
+    [... and more]()
+
+-   :material-language-csharp:{ .lg .middle } __Developer__
+
+    ---
+
+    알티베이스를 더 개발해보세용
+
+    [Stored Procedures Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/SQL%20Reference.md)<br>
+    [Altibase C Interface Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/SQL%20Reference.md)<br>
+    [API User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/SQL%20Reference.md)<br>
+    [... and more]()
+
 </div>
 <div class="grid cards" markdown>
 -   :octicons-tools-16:{ .lg .middle } __Tools within Pakages__
 
     ---
 
-    Change the colors, fonts, language, icons, logo and more with a few lines
+    내장 툴 매뉴얼
 
-    [:octicons-arrow-right-24: Tools](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Utilities%20Manual.md)
+    [Utilities Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Utilities%20Manual.md)<br>
+    [iSQL User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Utilities%20Manual.md)<br>
+    [iLoader User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Utilities%20Manual.md)<br>
+    [... and more]()
 
 -   :octicons-link-external-16:{ .lg .middle } __External Tools__
 
     ---
 
-    Material for MkDocs is licensed under MIT and available on [GitHub]
+    다운로드 받아야 하는 외장 툴
 
-    [:octicons-arrow-right-24: Tools two](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Tools/Altibase_release/kor/Altibase%203rd%20Party%20Connector%20Guide.md)
+    [Altibase 3rd Party Connector Guide](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Tools/Altibase_release/kor/Altibase%203rd%20Party%20Connector%20Guide.md)<br>
+    [Migration Center User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Tools/Altibase_release/kor/Altibase%203rd%20Party%20Connector%20Guide.md)<br>
+    [altiShapeLoader User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Tools/Altibase_release/kor/Altibase%203rd%20Party%20Connector%20Guide.md)<br>
+    [... and more]()
+
+-   :fontawesome-solid-book:{ .lg .middle } __References__
+
+    ---
+
+    레퍼런스 매뉴얼
+
+    [SQL Reference](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Utilities%20Manual.md)<br>
+    [Data Types & Properties](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Utilities%20Manual.md)<br>
+    [Data Dictionary](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Utilities%20Manual.md)<br>
+    [Error Message](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Utilities%20Manual.md)
 
 </div>
 
+## 구문 다이어그램
 
-**Altibase는 여러분의 의견을 환영합니다.**
+| 구성 요소                     | 의미                                                         |
+| ----------------------------- | ------------------------------------------------------------ |
+| ![](media/Admin/image004.gif) | 명령문이 시작한다. 완전한 명령문이 아닌 구문 요소는 화살표로 시작한다. |
+| ![](media/Admin/image006.gif) | 명령문이 다음 라인에 계속된다. 완전한 명령문이 아닌 구문 요소는 이 기호로 종료한다. |
+| ![](media/Admin/image008.gif) | 명령문이 이전 라인으로부터 계속된다. 완전한 명령문이 아닌 구문 요소는 이 기호로 시작한다. |
+| ![](media/Admin/image010.gif) | 명령문이 종료한다.                                           |
+| ![](media/Admin/image012.gif) | 필수 항목                                                    |
+| ![](media/Admin/image014.gif) | 선택적 항목                                                  |
+| ![](media/Admin/image016.gif) | 선택사항이 있는 필수 항목. 한 항목만 제공해야 한다.          |
+| ![](media/Admin/image018.gif) | 선택사항이 있는 선택적 항목                                  |
+| ![](media/Admin/image020.gif) | 선택적 항목. 여러 항목이 허용된다. 각 반복 앞부분에 콤마가 와야 한다. |
 
-이 매뉴얼에 대한 여러분의 의견을 보내주시기 바랍니다. 사용자의 의견은 다음 버전의 매뉴얼을 작성하는데 많은 도움이 됩니다. 보내실 때에는 아래 내용과 함께 [고객서비스포털](http://support.altibase.com/kr/)로 보내주시기 바랍니다.
+## 샘플 코드 규칙
 
--   사용중인 매뉴얼의 이름과 버전
+아래 테이블은 코드 예제에서 사용된 인쇄 규칙에 대해 설명한다.
+
+| 규칙         | 의미                                                         | 예제                                                         |
+| ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [ ]          | 선택 항목을 표시                                             | VARCHAR [(*size*)][[FIXED \|] VARIABLE]                      |
+| { }          | 필수 항목 표시. 반드시 하나 이상을 선택해야 되는 표시        | { ENABLE \| DISABLE \| COMPILE }                             |
+| \|           | 선택 또는 필수 항목 표시의 인자 구분 표시                    | { ENABLE \| DISABLE \| COMPILE } [ ENABLE \| DISABLE \| COMPILE ] |
+| . . .        | 그 이전 인자의 반복 표시 예제 코드들의 생략되는 것을 표시    | SQL\> SELECT ename FROM employee;<br/> ENAME<br/>  -----------------------<br/> SWNO <br/> HJNO<br/>  HSCHOI <br/> .<br/> .<br/> . <br/>20 rows selected. |
+| 그 밖에 기호 | 위에서 보여진 기호 이 외에 기호들                            | EXEC :p1 := 1; acc NUMBER(11,2);                             |
+| 기울임 꼴    | 구문 요소에서 사용자가 지정해야 하는 변수, 특수한 값을 제공해야만 하는 위치 | SELECT \* FROM *table_name*;<br/> CONNECT *userID*/*password*; |
+| 소문자       | 사용자가 제공하는 프로그램의 요소들, 예를 들어 테이블 이름, 칼럼 이름, 파일 이름 등 | SELECT ename FROM employee;                                  |
+| 대문자       | 시스템에서 제공하는 요소들 또는 구문에 나타나는 키워드       | DESC SYSTEM_.SYS_INDICES_;                                   |
+
+## Altibase는 여러분의 의견을 환영합니다.
+
+이 매뉴얼에 대한 여러분의 의견을 보내주시기 바랍니다. 사용자의 의견은 다음 버전의 매뉴얼을 작성하는데 많은 도움이 됩니다. 보내실 때에는 아래 내용과 함께 [고객서비스포털]( ttp://support.altibase.com/kr/)로 보내주시기 바랍니다.
+
+-   사용 중인 매뉴얼의 이름과 버전
 
 -   매뉴얼에 대한 의견
 
