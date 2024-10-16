@@ -13,9 +13,9 @@ hide:
 
     어쩌구저쩌구 시작하기
 
-    [Getting Started Guide](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Getting%20Started%20Guide/0.%EC%84%9C%EB%AC%B8/)<br>
-    [Installation Guide]()<br>
-    [Release Note]()
+    [Getting Started Guide](Admin/Getting%20Started%20Guide/1.Altibase-설치.md)<br>
+    [Installation Guide](Admin/Installation%20Guide/1.Altibase-패키지-인스톨러.md)<br>
+    [Release Note](https://github.com/ALTIBASE/Documents/blob/master/ReleaseNotes/kor/Altibase_7_3_0_0_1_Release_Notes.md)
 
 
 -   :material-database:{ .lg .middle } __Administration__
@@ -24,10 +24,10 @@ hide:
 
     데이터베이스 관리자 용 알티베이스 기능 설명
 
-    [Administrator's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/SQL%20Reference.md)<br>
-    [Replication Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/SQL%20Reference.md)<br>
-    [Performance Tuning Guide](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/SQL%20Reference.md)<br>
-    [... and more]()
+    [Administrator's Manual](Admin/Administrator's%20Manual/1.Altibase-소개.md)<br>
+    [Replication Manual](Admin/Replication%20Manual/1.이중화-개요.md)<br>
+    [Performance Tuning Guide](Admin/Performance%20Tuning%20Guide/1.성능-튜닝-소개.md)<br>
+    ... and more
 
 -   :material-language-csharp:{ .lg .middle } __Developer__
 
@@ -35,9 +35,9 @@ hide:
 
     알티베이스를 더 개발해보세용
 
-    [Stored Procedures Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/SQL%20Reference.md)<br>
-    [Altibase C Interface Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/SQL%20Reference.md)<br>
-    [API User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/SQL%20Reference.md)<br>
+    [Stored Procedures Manual](Developer/Stored%20Procedures%20Manual/1.저장-프로시저.md)<br>
+    [Altibase C Interface Manual](Developer/Altibase%20C%20Interface%20Manual/1.Altibase-C-인터페이스-소개.md)<br>
+    [API User's Manual](Developer/API%20User's%20Manual/1.PHP-Interface.md)<br>
     [... and more]()
 
 </div>
@@ -48,9 +48,9 @@ hide:
 
     내장 툴 매뉴얼
 
-    [Utilities Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Utilities%20Manual.md)<br>
-    [iSQL User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Utilities%20Manual.md)<br>
-    [iLoader User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Utilities%20Manual.md)<br>
+    [Utilities Manual](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Version-dependent%20Tools/Utilities%20Manual/1.aexport/)<br>
+    [iSQL User's Manual](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Version-dependent%20Tools/iSQL%20User%27s%20Manual/1.iSQL-%EC%9D%B4%EC%9A%A9%EB%B0%A9%EB%B2%95/)<br>
+    [iLoader User's Manual](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Version-dependent%20Tools/iLoader%20User%27s%20Manual/1.iLoader-%EA%B0%9C%EC%9A%94/)<br>
     [... and more]()
 
 -   :octicons-link-external-16:{ .lg .middle } __External Tools__
@@ -59,9 +59,9 @@ hide:
 
     다운로드 받아야 하는 외장 툴
 
-    [Altibase 3rd Party Connector Guide](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Tools/Altibase_release/kor/Altibase%203rd%20Party%20Connector%20Guide.md)<br>
-    [Migration Center User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Tools/Altibase_release/kor/Altibase%203rd%20Party%20Connector%20Guide.md)<br>
-    [altiShapeLoader User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Tools/Altibase_release/kor/Altibase%203rd%20Party%20Connector%20Guide.md)<br>
+    [Altibase 3rd Party Connector Guide](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Tools/Altibase%203rd%20Party%20Connector%20Guide/1.DBeaver/)<br>
+    [Migration Center User's Manual](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Tools/Migration%20Center%20User%27s%20Manual/1.Migration-Center-%EC%86%8C%EA%B0%9C/)<br>
+    [altiShapeLoader User's Manual](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Tools/altiShapeLoader%20User%27s%20Manual/1.-altiShapeLoader-%EC%86%8C%EA%B0%9C/)<br>
     [... and more]()
 
 -   :fontawesome-solid-book:{ .lg .middle } __References__
@@ -70,10 +70,10 @@ hide:
 
     레퍼런스 매뉴얼
 
-    [SQL Reference](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Utilities%20Manual.md)<br>
-    [Data Types & Properties](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Utilities%20Manual.md)<br>
-    [Data Dictionary](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Utilities%20Manual.md)<br>
-    [Error Message](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.3/kor/Utilities%20Manual.md)
+    [SQL Reference](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Developer/SQL%20Reference/1.Altibase-SQL-%EC%86%8C%EA%B0%9C/)<br>
+    [Data Types & Properties](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/General_Reference-1.Data%20Types%20%26%20Altibase%20Properties/0.%20%EC%84%9C%EB%AC%B8/)<br>
+    [Data Dictionary](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/General_Reference-2.The%20Data%20Dictionary/0.%EC%84%9C%EB%AC%B8/)<br>
+    [Error Message](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/Admin/Error%20Message%20Reference/1.ID-Error-Code/)
 
 </div>
 
