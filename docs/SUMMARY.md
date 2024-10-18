@@ -64,31 +64,29 @@
         - Developer/Stored Procedures Manual/*.md
     - Monitoring API Developer's Guide
         - Developer/Monitoring API Developer's Guide/*.md
-- Tools within Pakages
+- Tools
     - Adapter for JDBC User's Manual 
-        - Version-dependent Tools/Adapter for JDBC User's Manual/*.md
+        - Tools/Adapter for JDBC User's Manual/*.md
     - Adapter for Oracle User's Manual
-        - Version-dependent Tools/Adapter for Oracle User's Manual/*.md
+        - Tools/Adapter for Oracle User's Manual/*.md
     - iLoader User's Manual
-        - Version-dependent Tools/iLoader User's Manual/*.md
+        - Tools/iLoader User's Manual/*.md
     - iSQL User's Manual
-        - Version-dependent Tools/iSQL User's Manual/*.md
+        - Tools/iSQL User's Manual/*.md
     - Log Analyzer User's Manual
-        - Version-dependent Tools/Log Analyzer User's Manual/*.md
+        - Tools/Log Analyzer User's Manual/*.md
     - Utilities Manual
-        - Version-dependent Tools/Utilities Manual/*.md
+        - Tools/Utilities Manual/*.md
 - External Tools
     - Altibase 3rd Party Connector Guide
-        - Tools/Altibase 3rd Party Connector Guide/*.md
+        - External Tools/Altibase 3rd Party Connector Guide/*.md
     - Altibase Heartbeat User's Guide
-        - Tools/Altibase Heartbeat User's Guide/*.md
+        - External Tools/Altibase Heartbeat User's Guide/*.md
     - altiShapeLoader User's Manual
-        - Tools/altiShapeLoader User's Manual/*.md
-    - dataCompJ User's Manual
-        - Tools/dataCompJ User's Manual/*.md
+        - External Tools/altiShapeLoader User's Manual/*.md
     - Migration Center User's Manual
-        - Tools/Migration Center User's Manual/*.md
+        - External Tools/Migration Center User's Manual/*.md
     - Hadoop Connector User's Manual
-        - Tools/Hadoop Connector User's Manual/*.md
+        - External Tools/Hadoop Connector User's Manual/*.md
     - Replication Manager User's Manual
-        - Tools/Replication Manager User's Manual/*.md
+        - External Tools/Replication Manager User's Manual/*.md
