@@ -1,10 +1,9 @@
 .md-grid {
-  max-width: 100%;
+  max-width: 75%;
 }
 
-.image_description{
-  display: inline-block;
-  width: 100%;
+html{
+font-size: 1.25rem;
 }
 
 :root {
@@ -12,3 +11,13 @@
 }
 
 readthedocs-flyout { display: none; }
+
+.md-search {
+margin-right: 1%;
+}
+
+.md-search-result .md-typeset {
+display: -webkit-box;
+-webkit-line-clamp: 4;
+-webkit-box-orient: vertical;
+}
