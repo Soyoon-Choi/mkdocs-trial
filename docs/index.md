@@ -28,8 +28,8 @@ hide:
     - [Replication Manual](Admin/Replication%20Manual/1.이중화-개요.md)
     - [Performance Tuning Guide](Admin/Performance%20Tuning%20Guide/1.성능-튜닝-소개.md)
     
-    [:material-cursor-default-click: Admin 바로 가기](#)
-
+    :octicons-arrow-up-right-16: [더 보기](Admin/Administrator's%20Manual/0.서문.md)<br>
+    
 </div>
 
 <div class="grid cards" markdown>
@@ -44,20 +44,20 @@ hide:
     - [Altibase C Interface Manual](Developer/Altibase%20C%20Interface%20Manual/1.Altibase-C-인터페이스-소개.md)
     - [API User's Manual](Developer/API%20User's%20Manual/1.PHP-Interface.md)
     
-    [:material-cursor-default-click: Developer 바로 가기](#)
-
+    :octicons-arrow-up-right-16: [더 보기](Developer/Altibase%20C%20Interface%20Manual/1.Altibase-C-인터페이스-소개.md)
+    
 -   :octicons-tools-16:{ .lg .middle } __Tools__
 
     ---
 
     Altibase 패키지에 포함된 다양한 유틸리티 도구들을 다루는 매뉴얼을 확인해보세요. 데이터 내보내기, 쿼리 실행, 로딩 도구 등 실무에서 유용하게 활용할 수 있는 툴들을 안내합니다.
 
-    - [Utilities Manual](Tools/Utilities%20Manual/1.aexport.md)<br>
-    - [iSQL User's Manual](Tools/iSQL%20User's%20Manual/1.iSQL-이용방법.md)<br>
-    - [iLoader User's Manual](Tools/iLoader%20User's%20Manual/1.iLoader-개요.md)<br>
+    - [Utilities Manual](Tools/Utilities%20Manual/1.aexport.md)
+    - [iSQL User's Manual](Tools/iSQL%20User's%20Manual/1.iSQL-이용방법.md)
+    - [iLoader User's Manual](Tools/iLoader%20User's%20Manual/1.iLoader-개요.md)
     
-    [:material-cursor-default-click: Tools 바로 가기](#)<br>
-
+    :octicons-arrow-up-right-16: [더 보기](Tools/Adapter%20for%20JDBC%20User's%20Manual/1.소개.md)
+    
 </div>
 
 <div class="grid cards" markdown>
@@ -70,8 +70,8 @@ hide:
     - [Altibase 3rd Party Connector Guide](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/External%20Tools/Altibase%203rd%20Party%20Connector%20Guide/1.DBeaver/)
     - [Migration Center User's Manual](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/External%20Tools/Migration%20Center%20User%27s%20Manual/1.Migration-Center-%EC%86%8C%EA%B0%9C/)
     - [altiShapeLoader User's Manual](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/External%20Tools/altiShapeLoader%20User%27s%20Manual/1.-altiShapeLoader-%EC%86%8C%EA%B0%9C/)
-
-    [:material-cursor-default-click: External Tools 바로 가기](#)<br>
+    
+    :octicons-arrow-up-right-16: [더 보기](External Tools/Altibase 3rd Party Connector Guide/1.DBeaver.md)
 
 -   :fontawesome-solid-book:{ .lg .middle } __References__
 
