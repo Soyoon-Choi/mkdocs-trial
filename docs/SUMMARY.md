@@ -39,7 +39,7 @@
         - Admin/SNMP Agent Guide/*.md
 - Developer
     - Developer/*.md
-- Version-Dependent Tools
-    - Version-dependent Tools/*.md
 - Tools
+    - Version-dependent Tools/*.md
+- External Tools
     - Tools/*.md
