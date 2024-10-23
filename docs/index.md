@@ -4,7 +4,7 @@ hide:
   - toc
   - navigation
 ---
-# Altibase 7.3 매뉴얼
+# Altibase 7.3
 
 <div class="grid cards" markdown>
 
