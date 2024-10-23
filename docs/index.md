@@ -5,7 +5,7 @@ hide:
   - navigation
 ---
 
-# Altibase 7.1 매뉴얼
+# Altibase 7.1
 
 :octicons-desktop-download-16:{ .lg .middle } **Getting started**
 
