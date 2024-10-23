@@ -34,7 +34,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :material-language-c:{ .lg .middle } __Developer__
+-   :material-language-csharp:{ .lg .middle } __Developer__
 
     ---
 
