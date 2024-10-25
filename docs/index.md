@@ -4,7 +4,6 @@ hide:
   - toc
   - navigation
 ---
-
 # Altibase 7.1
 
 <div class="grid cards" markdown>
@@ -32,8 +31,7 @@ hide:
     - [Performance Tuning Guide](Admin/Performance%20Tuning%20Guide/1.성능-튜닝-소개.md)
     - [Replication Manual](Admin/Replication%20Manual/1.이중화-개요.md)
     - [SNMP Agent Guide](Admin/SNMP%20Agent%20Guide/0.서문.md)
-      
-
+        
 </div>
 
 <div class="grid cards" markdown>
@@ -67,7 +65,6 @@ hide:
     - [Log Analyzer User's Manual](Tools/Log%20Analyzer%20User's%20Manual/1.Log-Analyzer-소개.md)
     - [Utilities Manual](Tools/Utilities%20Manual/1.aexport.md)
     
-
 </div>
 
 <div class="grid cards" markdown>
@@ -88,7 +85,7 @@ hide:
 -   :fontawesome-solid-book:{ .lg .middle } **References**
 
     ---
-    
+     
     Altibase 관련 참조 자료들을 한 곳에서 확인할 수 있습니다. SQL, 데이터 타입, 데이터 딕셔너리, 오류 메시지 등 다양한 주제에 대한 정보를 제공합니다.
 
     - [Data Types & Properties](Admin/General_Reference-1.Data%20Types%20&%20Altibase%20Properties/0.%20서문.md)
