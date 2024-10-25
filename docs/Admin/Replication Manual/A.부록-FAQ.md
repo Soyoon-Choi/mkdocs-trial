@@ -26,7 +26,7 @@ Conflict Resolution 방법을 알려주세요.
 
 네, 이중화 대상인 테이블에 대해서 DDL을 수행할 수 있습니다. 우선 프로퍼티를 다음과 같이 설정해야 합니다. REPLICATION_DDL_ENABLE 프로퍼티를 1로 설정하고, ALTER SESSION SET REPLICATION 구문을 이용해서 REPLICATION 세션 프로퍼티를 NONE 이외의 값으로 설정해야 합니다.
 
-자세한 내용은 이 매뉴얼의 ‘[이중화 대상 테이블에 DDL 실행](#이중화-대상-테이블에-ddl-실행)’을 참고하기 바랍니다.
+자세한 내용은 이 매뉴얼의 ‘[이중화 대상 테이블에 DDL 실행](../Replication%20Manual/3.이중화-사용.md#이중화-대상-테이블에-ddl-실행)’을 참고하기 바랍니다.
 
 ##### **질문**
 

@@ -1,23 +1,23 @@
 .md-grid {
-  max-width: 80%;
+    max-width: 80%;
 }
 
 html{
-font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 :root {
-  --md-primary-fg-color:        #105BA4;
-}
+    --md-primary-fg-color:        #105BA4;
+  }
 
 readthedocs-flyout { display: none; }
 
 .md-search {
-margin-right: 1%;
+  margin-right: 1%;
 }
 
 .md-search-result .md-typeset {
-display: -webkit-box;
--webkit-line-clamp: 4;
--webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }

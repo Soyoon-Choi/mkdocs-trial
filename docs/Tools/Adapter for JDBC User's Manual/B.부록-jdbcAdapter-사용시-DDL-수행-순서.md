@@ -1,0 +1,22 @@
+# B.부록: jdbcAdapter 사용시 DDL 수행 순서
+
+### jdbcAdapter 사용시 DDL 수행 순서
+
+jdbcAdapter를 사용할 때 이중화를 수행중인 DDL은 아래의 순서대로 수행해야 한다.
+
+| No                                              | Active Server                                                                                   | jdbcAdapter                                                                                | Standby Server                                           |
+|-------------------------------------------------|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| 1.양쪽 서버에 스키마 생성                       | CREATE TABLE T1 ( C1 INTEGER PRIMARY KEY, C2 SMALLINT );                                        |                                                                                            | CREATE TABLE T1 ( C1 INTEGER PRIMARY KEY, C2 SMALLINT ); |
+| 2.ANALYSIS로 이중화 생성                        | CREATE REPLICATION ala FOR ANALYSIS WITH 'Standby IP', Standby Port FROM SYS.T1 TO SYS T1;      |                                                                                            |                                                          |
+| 3.jdbcAdapter 시작                              |                                                                                                 | \$ oaUtility start                                                                         |                                                          |
+| 4.이중화 시작                                   | ALTER REPLICATION ala START;                                                                    |                                                                                            |                                                          |
+| 5.이중화 Gap 제거를 위해 Flush 구문 수행        | ALTER REPLICATION ALA FLUSH ALL;                                                                |                                                                                            |                                                          |
+| 6.DDL 수행을 위한 이중화 관련 프로퍼티 값 설정  | ALTER SYSTEM SET REPLICATION_DDL_ENABLE = 1; ALTER SYSTEM SET REPLICATION_DDL_ENABLE_LEVEL = 1; |                                                                                            |                                                          |
+| 7. Active 서버에 DDL 수행                       |                                                                                                 | Adapter 종료 (DDL 로그 처리로 인하여)                                                      |                                                          |
+| 8.jdbcAdapter trc 로그 확인                     | SELECT REP_NAME, STATUS FROM V\$REPSENDER; 조회하여 STATUS 가 2 확인                            | 'Log Record : Meta change xlog was arrived, adapter will be finished' trc 로그 메시지 확인 |                                                          |
+| 9.Standby 서버에 DDL 수행                       |                                                                                                 |                                                                                            | DDL                                                      |
+| 10.jdbcAdapter 재실행                           |                                                                                                 | \$ oaUtility start                                                                         |                                                          |
+| 11.이중화 중지 및 재시작 (생략가능)             | (optional) ALTER REPLICATION ALA STOP; ALTER REPLICATION ALA START;                             |                                                                                            |                                                          |
+| 12.데이터 복제 여부 확인                        | DML (Service)                                                                                   |                                                                                            | 데이터 복제 확인                                         |
+| 13.DDL 중지를 위한 이중화 관련 프로퍼티 값 설정 | ALTER SYSTEM SET REPLICATION_DDL_ENABLE = 0; ALTER SYSTEM SET REPLICATION_DDL_ENABLE_LEVEL = 0; |                                                                                            |                                                          |
+

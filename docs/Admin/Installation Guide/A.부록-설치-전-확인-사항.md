@@ -4,22 +4,22 @@
 
 OS 명령어인 “ulimit”으로 사용자 계정에 설정된 리소스 한계값을 확인 또는 변경할 수 있다.
 
-- File Size  
+File Size  
 :	프로세스가 생성 가능한 파일의 최대 크기
 
-- Data segment size  
+Data segment size  
 :    프로세스가 사용 가능한 논리적 메모리의 최대 크기(VSZ측면)
 
-- Max memory size  
+Max memory size  
 :    프로세스가 사용 가능한 물리적 메모리의 최대 크기(RSS측면)
 
-- Open files (descriptor)  
+Open files (descriptor)  
 :    프로세스가 동시에 접근 가능한 파일 및 소켓의 최대 개수
 
-- Stack size
+Stack size
 :    최대 스택 사이즈
 
-- Virtual memory  
+Virtual memory  
 :    프로세스가 사용 가능한 가상 메모리의 최대 크기
 
 유닉스 시스템은 사용자 계정의 리소스 한계값들을 "unlimited"로 설정할 것을 권장한다. 이 때 core file size는 unlimited로 설정하지 않도록 한다. 만일 Altibase 서버가 비정상 종료하여 코어를 덤프할 경우 메모리 데이터베이스를 모두 core 파일로 저장하기 때문에 unlimited로 설정하면 디스크 부족이 발생할 수 있다. Altibase 클라이언트 제품은 Stack size가 최소 70KB 이상이어야 한다.
@@ -30,10 +30,10 @@ OS별로 제공되는 유틸리티를 사용해서 시스템 커널 파라미터
 
 시스템 커널 파라미터는 크게 다음과 같이 분류된다.
 
-- Semaphore  
+Semaphore  
 :    IPC접속을 위한 세마포어 설정
 
-- File-cache  
+File-cache  
 :    운영체제의 File-cache 확보로 인한 메모리 부족을 방지하기 위한 설정
 
 - 기타 설정

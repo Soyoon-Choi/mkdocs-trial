@@ -37,6 +37,7 @@ extra:
       link: https://github.com/ALTIBASE/Documents/tree/master/Manuals/Altibase_7.1/kor
     - icon: fontawesome/solid/house
       link: https://www.altibase.com/kr/index.php
+
   analytics:
     provider: google
     property: G-QGH6FBLTP5
@@ -46,6 +47,9 @@ copyright: © 1999-2024 Altibase Corp.
 
 extra_css:
   - custom/style.css
+
+#extra_javascript:
+#  - javascripts/extra.js
 
 plugins:
   - search:
