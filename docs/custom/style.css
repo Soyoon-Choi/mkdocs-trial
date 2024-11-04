@@ -1,23 +1,80 @@
+/* 전체 설정*/
 .md-grid {
-    max-width: 80%;
+  max-width: 80%;
 }
 
 html{
-  font-size: 1.25rem;
+font-size: 1.25rem;
 }
 
 :root {
-    --md-primary-fg-color:        #105BA4;
-  }
+  --md-primary-fg-color: #00468F;
+  --md-accent-fg-color: #00ABE4;
+}
 
 readthedocs-flyout { display: none; }
 
-.md-search {
-  margin-right: 1%;
+/* 헤더 설정 */
+.md-header__title .md-header__ellipsis .md-header__topic {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.md-header__option {
+  margin: auto;
 }
 
 .md-search-result .md-typeset {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
+display: -webkit-box;
+-webkit-line-clamp: 4;
+-webkit-box-orient: vertical;
+}
+
+/*푸터 설정*/
+.md-footer {
+  color: #717073;
+  background-color: transparent;
+}
+/*
+.md-footer .md-footer__inner.md-grid {
+  background: linear-gradient(to top, rgba(0, 51, 100, 1) 0%, rgba(255,255,255,1) 100%);
+}*/
+
+.md-copyright__highlight {
+  color: #F0F0F0;
+}
+
+.md-footer-meta.md-typeset {
+  /*background-color: #003364;*/
+  /*background: linear-gradient(to top, rgba(0, 51, 100, 1) 0%, rgba(255,255,255,1) 100%);*/
+  background: linear-gradient(to top, rgba(0, 51, 100, 1) 0%, transparent 100%);
+  color: #808080;
+}
+
+.md-footer-meta.md-typeset .sitemap-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: auto;
+  max-width: 80%;
+}
+
+
+.md-footer-meta.md-typeset .sitemap-list h4 {
+  color: #808080;
+}
+
+.md-footer-meta.md-typeset .sitemap-list li {
+  list-style: none;
+  padding: 0;
+  line-height: 90%;
+}
+
+.md-footer-meta.md-typeset .sitemap-list a {
+  color: #808080;
+  font-size: 0.75rem;
+}
+
+.md-social > a > svg > path {
+  fill:#808080;
 }

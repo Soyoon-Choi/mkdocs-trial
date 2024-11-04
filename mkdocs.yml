@@ -6,7 +6,7 @@ theme:
   custom_dir: overrides
   palette:
     primary: custom
-    accent: teal
+    accent: custom
   language: ko
   favicon: img/favicon.ico
   logo: img/logo_w.png
