@@ -8,7 +8,8 @@ font-size: 1.25rem;
 }
 
 :root {
-  --md-primary-fg-color:        #004E91;
+  --md-primary-fg-color:#004E91;
+  --md-accent-fg-color: #00ABE4;
 }
 
 readthedocs-flyout { display: none; }
