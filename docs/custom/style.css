@@ -68,6 +68,10 @@ display: -webkit-box;
   font-size: 0.75rem;
 }
 
+.md-footer-meta.md-typeset .sitemap-list > div > ul > li > a:hover {
+  color: #004E91;
+}
+
 .md-social > a > svg > path {
   fill:#6C6E70
 }
