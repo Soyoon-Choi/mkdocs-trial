@@ -1,23 +1,72 @@
+/* 전체 설정*/
 .md-grid {
-    max-width: 80%;
+  max-width: 80%;
 }
 
 html{
-  font-size: 1.25rem;
+font-size: 1.25rem;
 }
 
 :root {
-    --md-primary-fg-color:        #105BA4;
-  }
+  --md-primary-fg-color:        #004E91;
+}
 
 readthedocs-flyout { display: none; }
 
-.md-search {
-  margin-right: 1%;
+/* 헤더 설정 */
+.md-header__title .md-header__ellipsis .md-header__topic {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.md-header__option {
+  margin: auto;
 }
 
 .md-search-result .md-typeset {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
+display: -webkit-box;
+-webkit-line-clamp: 4;
+-webkit-box-orient: vertical;
+}
+
+/*푸터 설정*/
+.md-footer {
+  color: #6C6E70;
+  background-color: transparent;
+}
+
+.md-copyright__highlight {
+  color: #6C6E70;
+}
+
+.md-footer-meta.md-typeset {
+  background-color: transparent;
+}
+
+.md-footer-meta.md-typeset .sitemap-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: auto;
+  max-width: 80%;
+  border-top: thin solid #6C6E70;
+}
+
+.md-footer-meta.md-typeset .sitemap-list h4 {
+  color: #6C6E70;
+}
+
+.md-footer-meta.md-typeset .sitemap-list li {
+  list-style: none;
+  padding: 0;
+  line-height: 100%;
+}
+
+.md-footer-meta.md-typeset .sitemap-list a {
+  color: #6C6E70;
+  font-size: 0.75rem;
+}
+
+.md-social > a > svg > path {
+  fill:#6C6E70
 }
