@@ -32,22 +32,21 @@ display: -webkit-box;
 
 /*푸터 설정*/
 .md-footer {
-  color: #717073;
+  color: #6C6E70;
   background-color: transparent;
 }
-/*
-.md-footer .md-footer__inner.md-grid {
-  background: linear-gradient(to top, rgba(0, 51, 100, 1) 0%, rgba(255,255,255,1) 100%);
-}*/
+
+.md-footer__inner.md-grid {
+  background-color: #D1D3D3;
+} 
 
 .md-copyright__highlight {
-  color: #000000;
+  color: #6C6E70;
 }
 
+
 .md-footer-meta.md-typeset {
-  /*background-color: #003364;*/
-  background: linear-gradient(to top, rgba(0, 65, 130, 1) 0%, transparent 100%);
-  color: #000000;
+  background-color: transparent;
 }
 
 .md-footer-meta.md-typeset .sitemap-list {
@@ -56,28 +55,29 @@ display: -webkit-box;
   padding: 0;
   margin: auto;
   max-width: 80%;
+  border-top: thin solid #6C6E70;
 }
 
 
 .md-footer-meta.md-typeset .sitemap-list h4 {
-  color: #000000;
+  color: #6C6E70;
 }
 
 .md-footer-meta.md-typeset .sitemap-list li {
   list-style: none;
   padding: 0;
-  line-height: 90%;
+  line-height: 100%;
 }
 
 .md-footer-meta.md-typeset .sitemap-list a {
-  color: #000000;
+  color: #6C6E70;
   font-size: 0.75rem;
 }
 
 .md-footer-meta.md-typeset .sitemap-list > div > ul > li > a:hover {
-  color: #DCDCDC;
+  color: #004E91;
 }
 
 .md-social > a > svg > path {
-  fill:#000000;
+  fill:#6C6E70
 }
