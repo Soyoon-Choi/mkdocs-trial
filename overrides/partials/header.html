@@ -58,8 +58,9 @@
 
       <div class="md-header__option">
         <div class="md-select"> 
+          {% set icon = "fontawesome/solid/v" %}
           <button class="md-header__button md-icon">
-            <img src="../../docs/img/A2.png">
+            {% include ".icons/" ~ icon ~ ".svg" %}
           </button>
           <div class="md-select__inner">
             <ul class="md-select__list">
