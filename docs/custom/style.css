@@ -31,7 +31,7 @@ display: -webkit-box;
 }
 
 .md-header__button.version-button {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 /*푸터 설정*/
@@ -47,7 +47,6 @@ display: -webkit-box;
 .md-copyright__highlight {
   color: #6C6E70;
 }
-
 
 .md-footer-meta.md-typeset {
   background-color: transparent;
@@ -84,4 +83,4 @@ display: -webkit-box;
 
 .md-social > a > svg > path {
   fill:#6C6E70
-} 
+}
