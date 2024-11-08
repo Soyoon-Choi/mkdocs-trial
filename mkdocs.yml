@@ -30,13 +30,13 @@ extra:
       link: /ko/
       lang: ko
   social:
-    - icon: material/shield-account
-      link: https://www.altibase.com/en/etc/privacy.php
-      name: 개인정보 처리방침
     - icon: fontawesome/brands/github 
       link: https://github.com/ALTIBASE/Documents/tree/master/Manuals/Altibase_7.3/kor
     - icon: fontawesome/solid/house
       link: https://www.altibase.com/kr/index.php
+    - icon: fontawesome/solid/phone
+      link: http://support.altibase.com/kr/
+      name: Contact Us
   analytics:
     provider: google
     property: G-QGH6FBLTP5
