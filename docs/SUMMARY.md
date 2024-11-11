@@ -28,6 +28,12 @@
         - Admin/Replication Manual/*.md
     - DB Link User's Manual
         - Admin/DB Link User's Manual/*.md
+    - Altibase SSL TLS User's Guide
+        - Admin/Altibase SSL TLS User's Guide/*.md
+    - Performance Tuning Guide
+        - Admin/Performance Tuning Guide/*.md
+    - SNMP Agent Guide
+        - Admin/SNMP Agent Guide/*.md
     - General Reference
         - Data Types & Properties
             - Admin/General_Reference-1.Data Types & Altibase Properties/*.md
