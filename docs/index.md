@@ -16,8 +16,8 @@ hide:
 
     - [Getting Started Guide](Admin/Getting%20Started%20Guide/1.Altibase-설치.md)
     - [Installation Guide](Admin/Installation%20Guide/1.Altibase-패키지-인스톨러.md)
-    - [Release Notes](https://github.com/ALTIBASE/Documents/tree/master/ReleaseNotes/Altibase%207.3)
-    - [Patch Notes](https://github.com/ALTIBASE/Documents/tree/master/PatchNotes/Altibase_7.3)
+    - [Release Notes](https://github.com/ALTIBASE/Documents/tree/master/ReleaseNotes/Altibase%207.1)
+    - [Patch Notes](https://github.com/ALTIBASE/Documents/tree/master/PatchNotes/Altibase_7.1)
 
 -   :material-database:{ .lg .middle } **Administration**
 
@@ -95,15 +95,3 @@ hide:
     - [Error Message](Admin/Error%20Message%20Reference/1.ID-Error-Code.md)
 
 </div>
-
-## Altibase는 여러분의 의견을 환영합니다.
-
-여러분의 소중한 의견은 매뉴얼 개선에 큰 도움이 됩니다. 의견을 보내실 때 아래 정보를 함께 남겨주세요.
-
-- 매뉴얼 이름과 버전
-- 의견 내용
-- 성함, 주소, 전화번호
-
-오류, 누락, 기타 기술적 문제에 대한 피드백도 언제든지 환영합니다. 빠른 도움이 필요하시면 [고객서비스 포털](http://support.altibase.com/kr/)을 통해 문의해 주세요. 
-
-항상 여러분의 의견에 감사드립니다! 

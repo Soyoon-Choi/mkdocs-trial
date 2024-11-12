@@ -31,12 +31,14 @@ extra:
       lang: ko
   social:
     - icon: fontawesome/brands/github 
-      link: https://github.com/ALTIBASE/Documents/tree/master/Manuals/Altibase_7.3/kor
+      link: https://github.com/ALTIBASE/Documents/tree/master/Manuals/Altibase_7.1/kor
     - icon: fontawesome/solid/house
       link: https://www.altibase.com/kr/index.php
+      name: Altibase 홈페이지
     - icon: fontawesome/solid/phone
       link: http://support.altibase.com/kr/
-      name: Contact Us
+      name: 고객서비스 포털
+
   analytics:
     provider: google
     property: G-QGH6FBLTP5
@@ -47,8 +49,8 @@ copyright: © 1999-2024 Altibase Corp.
 extra_css:
   - custom/style.css
 
-#extra_javascript:
-#  - javascripts/extra.js
+extra_javascript:
+  - javascripts/extra.js
 
 plugins:
   - search:

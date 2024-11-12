@@ -61,6 +61,7 @@
           {% set icon = "octicons/versions-24" %}
           <button class="md-header__button md-icon">
             {% include ".icons/" ~ icon ~ ".svg" %}
+	    Altibase 7.3
           </button>
           <div class="md-select__inner">
             <ul class="md-select__list">
@@ -118,4 +119,7 @@
       {% include "partials/tabs.html" %}
     {% endif %}
   {% endif %}
+
+  {% include "partials/manual.html" %}
+
 </header>
