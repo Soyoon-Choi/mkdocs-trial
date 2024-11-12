@@ -30,8 +30,12 @@ display: -webkit-box;
 -webkit-box-orient: vertical;
 }
 
-.md-header__button.version-button {
-  font-size: 18px;
+.version-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: initial;
+  padding-right: 12px;  
 }
 
 [dir=ltr] .md-select__link {
