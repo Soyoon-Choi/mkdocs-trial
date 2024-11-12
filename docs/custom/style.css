@@ -109,6 +109,7 @@ display: -webkit-box;
   cursor: pointer;
   z-index: 1000;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 2px;
 }
 
 /* 사이드 메뉴 스타일 */
@@ -126,7 +127,8 @@ display: -webkit-box;
 
 /* 메뉴가 열릴 때의 스타일 */
 .side-menu.open {
-  max-height: 300px; /* 메뉴의 최대 높이 */
+  max-height: 60vh; /* 메뉴의 최대 높이 */
+  width: fit-content;
   border: 1px solid white;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
