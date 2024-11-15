@@ -58,8 +58,9 @@
 
       <div class="md-header__option">
         <div class="md-select"> 
-          <button class="md-header__button version-button">
-            Altibase 7.1
+          {% set icon = "octicons/version-24" %}
+          <button class="md-header__button md-icon">
+            {% include ".icons/" ~ icon ~ ".svg" %}
           </button>
           <div class="md-select__inner">
             <ul class="md-select__list">
