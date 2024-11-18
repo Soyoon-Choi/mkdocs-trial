@@ -16,8 +16,8 @@ hide:
 
     - [Getting Started Guide](Admin/Getting%20Started%20Guide/1.Altibase-설치.md)
     - [Installation Guide](Admin/Installation%20Guide/1.Altibase-패키지-인스톨러.md)
-    - [Release Notes](https://github.com/ALTIBASE/Documents/tree/master/ReleaseNotes/Altibase%207.1)
-    - [Patch Notes](https://github.com/ALTIBASE/Documents/tree/master/PatchNotes/Altibase_7.1)
+    - [Release Notes](https://github.com/ALTIBASE/Documents/tree/master/ReleaseNotes/Altibase%207.3)
+    - [Patch Notes](https://github.com/ALTIBASE/Documents/tree/master/PatchNotes/Altibase_7.3)
 
 -   :material-database:{ .lg .middle } **Administration**
 
