@@ -39,22 +39,22 @@
             - Admin/General_Reference-1.Data Types & Altibase Properties/*.md
         - Data Dictionary
             - Admin/General_Reference-2.The Data Dictionary/*.md
-    - Error Message
-        - [목차](Admin/Error%20Message%20Reference/목차.md)
-        - [1.ID Error Code](Admin/Error%20Message%20Reference/1.ID-Error-Code.md)
-        - [2.SM Error Code](Admin/Error%20Message%20Reference/2.SM-Error-Code.md)
-        - [3.MT Error Code](Admin/Error%20Message%20Reference/3.MT-Error-Code.md)
-        - [4.RP Error Code](Admin/Error%20Message%20Reference/4.RP-Error-Code.md)
-        - [5.QP Error Code](Admin/Error%20Message%20Reference/5.QP-Error-Code.md)
-        - [6.ST Error Code](Admin/Error%20Message%20Reference/6.ST-Error-Code.md)
-        - [7.MM Error Code](Admin/Error%20Message%20Reference/7.MM-Error-Code.md)
-        - [8.ODBC Error Code](Admin/Error%20Message%20Reference/8.ODBC-Error-Code.md)
-        - [9.APRE Error Code](Admin/Error%20Message%20Reference/9.APRE-Error-Code.md)
-        - [10.Utilities Error Code](Admin/Error%20Message%20Reference/10.Utilities-Error-Code.md)
-        - [11.CM Error Code](Admin/Error%20Message%20Reference/11.CM-Error-Code.md)
-        - [12.Database Link Error Code](Admin/Error%20Message%20Reference/12.Database-Link-Error-Code.md)
-        - [13.Log Analyzer Error Code](Admin/Error%20Message%20Reference/13.Log-Analyzer-Error-Code.md)
-        - [14.Regular Expression Error Code](Admin/Error%20Message%20Reference/14.Regular-Expression-Error-Code.md)
+    - Error Message Reference
+        - [서문](Admin/Error Message Reference/0.서문.md)
+        - [1.ID Error Code](Admin/Error Message Reference/1.ID-Error-Code.md)
+        - [2.SM Error Code](Admin/Error Message Reference/2.SM-Error-Code.md)
+        - [3.MT Error Code](Admin/Error Message Reference/3.MT-Error-Code.md)
+        - [4.RP Error Code](Admin/Error Message Reference/4.RP-Error-Code.md)
+        - [5.QP Error Code](Admin/Error Message Reference/5.QP-Error-Code.md)
+        - [6.ST Error Code](Admin/Error Message Reference/6.ST-Error-Code.md)
+        - [7.MM Error Code](Admin/Error Message Reference/7.MM-Error-Code.md)
+        - [8.ODBC Error Code](Admin/Error Message Reference/8.ODBC-Error-Code.md)
+        - [9.APRE Error Code](Admin/Error Message Reference/9.APRE-Error-Code.md)
+        - [10.Utilities Error Code](Admin/Error Message Reference/10.Utilities-Error-Code.md)
+        - [11.CM Error Code](Admin/Error Message Reference/11.CM-Error-Code.md)
+        - [12.Database Link Error Code](Admin/Error Message Reference/12.Database-Link-Error-Code.md)
+        - [13.Log Analyzer Error Code](Admin/Error Message Reference/13.Log-Analyzer-Error-Code.md)
+        - [14.Regular Expression Error Code](Admin/Error Message Reference/14.Regular-Expression-Error-Code.md)
 - Developer
     - API User's Manual
         - Developer/API User's Manual/*.md
