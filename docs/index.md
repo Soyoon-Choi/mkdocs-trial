@@ -92,6 +92,6 @@ hide:
     - [Data Dictionary](Admin/General_Reference-2.The%20Data%20Dictionary/0.서문.md)
     - [SQL Reference](Developer/SQL%20Reference/1.Altibase-SQL-소개.md)
     - [Spatial SQL Reference](Developer/Spatial%20SQL%20Reference/1.공간-데이터의-개요.md)
-    - [Error Message](Admin/Error%20Message%20Reference/1.ID-Error-Code.md)
+    - [Error Message Reference](Admin/Error%20Message%20Reference/1.ID-Error-Code.md)
 
 </div>
