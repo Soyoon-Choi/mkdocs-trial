@@ -3,7 +3,10 @@
   -#}
   <div class="md-header__option">
     <div class="md-select">
+
+      <!--언어 변경 아이콘을 globe로 변경-->
       {% set icon = config.theme.icon.alternate or "octicons/globe-24" %}
+      
       <button class="md-header__button md-icon" aria-label="{{ lang.t('select.language') }}">
         {% include ".icons/" ~ icon ~ ".svg" %}
       </button>
