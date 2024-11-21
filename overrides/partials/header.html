@@ -46,30 +46,30 @@
     </div>
 
     <!-- Product Version Setting -->
-      {% set version_links = [
-        {'link': 'https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.1/', 'name': 'Altibase 7.1'},
-        {'link': 'https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/', 'name': 'Altibase 7.3'}
-      ] %}
+    {% set version_links = [
+      {'link': 'https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.1/', 'name': 'Altibase 7.1'},
+      {'link': 'https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/ko/7.3/', 'name': 'Altibase 7.3'}
+    ] %}
 
-      <div class="md-header__option">
-        <div class="md-select"> 
-          {% set icon = "octicons/versions-24" %}
-          <button class="md-header__button md-icon">
-            {% include ".icons/" ~ icon ~ ".svg" %}
-          </button>
-          <div class="md-select__inner">
-            <ul class="md-select__list">
-              {% for ver in version_links %}
-              <li class="md-select__item">
-                <a href="{{ ver.link | url }}" class="md-select__link">
-                  {{ ver.name }}
-                </a>
-              </li>
-            {% endfor %}
-            </ul>
-          </div>
+    <div class="md-header__option">
+      <div class="md-select"> 
+        {% set icon = "octicons/versions-24" %}
+        <button class="md-header__button md-icon">
+          {% include ".icons/" ~ icon ~ ".svg" %}
+        </button>
+        <div class="md-select__inner">
+          <ul class="md-select__list">
+            {% for ver in version_links %}
+            <li class="md-select__item">
+              <a href="{{ ver.link | url }}" class="md-select__link">
+                {{ ver.name }}
+              </a>
+            </li>
+          {% endfor %}
+          </ul>
         </div>
       </div>
+    </div>
 
     <!-- Color palette toggle -->
     {% if config.theme.palette %}
